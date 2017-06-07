@@ -79,10 +79,11 @@
         <entry file="file://$PROJECT_DIR$/4.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="568">
-              <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+              <caret line="45" column="2" lean-forward="true" selection-start-line="45" selection-start-column="2" selection-end-line="45" selection-end-column="2" />
               <folding>
-                <element signature="e#14#28#0" expanded="true" />
+                <element signature="e#14#41#0" expanded="true" />
                 <element signature="n#!!block;n#swap#0" expanded="true" />
+                <element signature="n#!!block;n#Distance#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -91,12 +92,11 @@
       <file leaf-file-name="3.1.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/3.1.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+            <state relative-caret-position="380">
+              <caret line="20" column="3" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
               <folding>
                 <element signature="e#14#28#0" expanded="true" />
                 <element signature="n#!!block;n#reseiver#0" expanded="true" />
-                <element signature="n#!!block;n#main#1" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -454,12 +454,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/3.1.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        <state relative-caret-position="380">
+          <caret line="20" column="3" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
           <folding>
             <element signature="e#14#28#0" expanded="true" />
             <element signature="n#!!block;n#reseiver#0" expanded="true" />
-            <element signature="n#!!block;n#main#1" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -467,10 +466,11 @@
     <entry file="file://$PROJECT_DIR$/4.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="568">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <caret line="45" column="2" lean-forward="true" selection-start-line="45" selection-start-column="2" selection-end-line="45" selection-end-column="2" />
           <folding>
-            <element signature="e#14#28#0" expanded="true" />
+            <element signature="e#14#41#0" expanded="true" />
             <element signature="n#!!block;n#swap#0" expanded="true" />
+            <element signature="n#!!block;n#Distance#0" expanded="true" />
           </folding>
         </state>
       </provider>
