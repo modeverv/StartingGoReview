@@ -16,6 +16,12 @@ type Point struct {
 	x,y int
 }
 
+func swap(p *Point){
+	x,y := p.y,p.x
+	p.x = x
+	p.y = y
+}
+
 func main() {
 	a := Animal{
 		Name: "Monkey",
@@ -25,4 +31,8 @@ func main() {
 		},
 	}
 	f.Println(a)
+	p := Point{1,2}
+	f.Println(p)
+	swap(&p)
+	f.Println(p)
 }
