@@ -26,9 +26,16 @@ func swap(p *Point) {
 }
 
 // 構造体の「メソッド」
-func(p *Point) Distance(dp *Point) float64 {
-	x,y := p.x-dp.x,p.y - dp.y
+func (p *Point) Distance(dp *Point) float64 {
+	x, y := p.x-dp.x, p.y-dp.y
 	return math.Sqrt(float64(x*x + y*y))
+}
+
+// 頻出のコンストラクタっぽいの
+func NewPoint(x int, y int) *Point {
+	p := new(Point)
+	p.x, p.y = x, y
+	return p
 }
 
 func main() {
@@ -45,7 +52,10 @@ func main() {
 	swap(&p)
 	f.Println(p)
 
-	p1 := Point{1,2}
-	d := p1.Distance(&Point{4,3})
+	p1 := Point{1, 2}
+	d := p1.Distance(&Point{4, 3})
 	f.Println(d)
+
+	p3 := NewPoint(3, 3)
+	f.Println(p3)
 }
