@@ -58,4 +58,16 @@ func main() {
 
 	p3 := NewPoint(3, 3)
 	f.Println(p3)
+
+	// マップの初期化で構造体は楽できる例
+	mm := map[int]Point{
+		1: {3, 2},
+		2: {4, 6},
+	}
+	f.Println(mm)
+	mp,ok := mm[1]
+	if ok {
+		f.Println(mp.x)
+	}
+
 }
